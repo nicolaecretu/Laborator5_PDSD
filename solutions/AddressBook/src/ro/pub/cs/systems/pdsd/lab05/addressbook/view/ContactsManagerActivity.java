@@ -27,7 +27,7 @@ public class ContactsManagerActivity extends Activity {
 	
 	final ArrayList<View> contactPhoneNumberControls = new ArrayList<View>();
 	final ArrayList<View> contactEmailAddressControls = new ArrayList<View>();
-
+	
 	public LinearLayout createPhoneNumberLayout(String phoneNumber, int phoneNumberType) {
 		LinearLayout container = new LinearLayout(ContactsManagerActivity.this);
 		
